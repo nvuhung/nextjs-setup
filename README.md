@@ -1,3 +1,4 @@
+The code is inspired from: https://gitlab.com/kachkaev/website-frontend
 
 1. Install npm dependencies using Yarn or Npm
 
