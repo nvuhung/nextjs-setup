@@ -7,8 +7,6 @@
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "lint": "tsc --noEmit && tslint -c tslint.json 'src/**/*.ts{x,}' && prettier-check --ignore-path .gitignore \"{.,src/**}/{*.ts{x,},*.md,ts*.json,*.config.js}\"",
     "format": "prettier --write --ignore-path .gitignore \"{.,src/**}/{*.ts{x,},*.md,ts*.json,*.config.js}\"",
-    "debug": "nodemon --exec node --inspect-brk src/server.ts",
-    "export": "next export src"
   },
   "dependencies": {
     "antd": "^3.10.9",
