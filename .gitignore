@@ -1,0 +1,10 @@
+.DS_Store
+.env
+yarn-error.log
+
+/.next
+/build
+out/
+/lang/.messages
+/node_modules
+.vscode

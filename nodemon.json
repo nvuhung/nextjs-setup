@@ -1,0 +1,6 @@
+{
+  "watch": ["src/next.config.js", "src/*.ts", "src/static/locales/**/*.json"],
+  "execMap": {
+    "ts": "ts-node --compilerOptions '{\"module\":\"commonjs\"}'"
+  }
+}
